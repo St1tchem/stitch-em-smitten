@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.headerbox {
+    color: #E5E7EB;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F9FAF8;
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    margin-left: auto;
+    gap: 30px;
+}
+
+.headercontent {
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    justify-content: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    padding: 0;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.headerimage {
+    display: inline-block;
+}
+
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.sqcontainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.text {
+    text-align: center;
+}
+
+.boxthree {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    max-width: 60%;
+    align-self: center;
+}
+
+.quoter {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+    max-width: 60%;
+    margin-right: 20%;
+}
+
+.boxfour {
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    width: 65%;
+    padding: 50px 100px;
+    margin: 100px auto;
+    color: #E5E7EB;
+    justify-content: space-between;
+}
+
+.calltoaction {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.signup {
+    padding: 0;
+    margin: 0;
+}
+
+.lastbutton {
+    align-self: flex-end;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #3882F6;
+    color: #E5E7EB;
+}
+
+.bone {
+    border: none;
+    margin-right: auto;
+}
+
+.btwo {
+    border: 2px solid white;
+    margin-left: auto;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
